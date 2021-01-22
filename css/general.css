@@ -51,7 +51,7 @@ input:focus, textarea:focus {
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
-    width: 100%;
+    width: 95vh;
     position: relative;
 }
 #image_wrapper2 {
@@ -60,7 +60,7 @@ input:focus, textarea:focus {
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
-    width: 100%;
+    width: 95vh;
     position: relative;
     
 }
@@ -70,7 +70,7 @@ input:focus, textarea:focus {
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
-    width: 100%;
+    width: 95vh;
     position: relative;
 }
 
