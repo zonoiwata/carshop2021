@@ -48,29 +48,29 @@ input:focus, textarea:focus {
 #image_wrapper1 {
     background-image: url("../images/index/minirover.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 150%;
     background-position: center center;
     min-height: 100vh;
-    width: 95%;
+    width: 100%;
     position: relative;
 }
 #image_wrapper2 {
     background-image: url("../images/index/Range-Rover-Evoque.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 150%;
     background-position: center center;
     min-height: 100vh;
-    width: 95%;
+    width: 100%;
     position: relative;
     
 }
 #image_wrapper3 {
     background-image: url("../images/index/Landcruiser.webp");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 150%;
     background-position: center center;
     min-height: 100vh;
-    width: 95%;
+    width: 100%;
     position: relative;
 }
 
@@ -125,10 +125,7 @@ input:focus, textarea:focus {
 }
 
 
-#container {
-    margin: auto;
-    width: 85%;
-}
+
 td {
     border-collapse: separate;
 }
