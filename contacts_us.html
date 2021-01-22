@@ -37,94 +37,96 @@
     </nav>
 </header>
 <body style="background-color: black; color: white">
+    <div>
+        <form style="margin-top: 100px;">
+            <label for="firstname">Firstname: </label>
+            <input type="text" name="firstname" placeholder="Taro" id="firstname" required>
+    
+            <label for="lastname">Lastname: </label>
+            <input type="text" name="lastname" placeholder="Kuruma" id="lastname" required>
+            <br>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password">
+            <br>
+            <label for="birthday">Birthday: </label>
+            <input type="date" name="birthday" id="birthday" required>
+            <br>
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="0" max="100" required>
+            <br>
+            <label for="email">Email Address: </label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="message">Message: </label>
+            <textarea id="message" name="message" required> Sample message here.</textarea>
+            <br>
+            Industry: 
+            <br>
+            <input type="radio" id="finance" name="industry" value="finance">
+            <label for="finance">Finance</label>
+            <br>
+            <input type="radio" id="retail" name="industry" value="retail">
+            <label for="retail">Retail</label>
+            <br>
+            <input type="radio" id="socialservices" name="industry" value="socialservices">
+            <label for="socialservices">Social Services</label>
+            <br>
+            <br>
+            Hobbies: 
+            <br>
+            <input type="checkbox" name="hobbies" value="arts" id="arts">
+            <label for="arts">Arts</label>
+            <br>
+            <input type="checkbox" name="hobbies" value="sports" id="sports">
+            <label for="sports">Sports</label>
+            <br>
+            <input type="checkbox" name="hobbies" value="travels" id="travels">
+            <label for="travels">Travels</label>
+            <br>
+            <br>
+            Country of origin:
+            <br>
+            <select id="country_of_origin" name="country_of_origin">
+                <option value="please_select">Please select</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="Japan">Japan</option>
+                <option value="mozanbique">Mozanbique</option>
+                <option value="palau">Palau</option>
+                <option value="vietnam">Vietnam</option>
+            </select>
+            <br>
+            <br>
+            Countries visited:
+            <br>
+            <select id="countries_visited" name="countries_visited" multiple>
+                <option value="please_select">Please select</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="Japan">Japan</option>
+                <option value="mozanbique">Mozanbique</option>
+                <option value="palau">Palau</option>
+                <option value="vietnam">Vietnam</option>
+            </select>
+            <br>
+            <br>
+            <label for="fileinput">File: </label>
+            <input type="file" id="fileinput" name="fileinput">
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+            <br>
+            <br>
+            <input type="button" value="Input Button">
+            <br>
+            <br>
+            <input type="image" src="images/Green_button.jpeg" alt="Green button." width="75" height="50">
+    
+        </form>
+    </div>
+
     
 
-    <form>
-        <label for="firstname">Firstname: </label>
-        <input type="text" name="firstname" placeholder="Taro" id="firstname" required>
-
-        <label for="lastname">Lastname: </label>
-        <input type="text" name="lastname" placeholder="Kuruma" id="lastname" required>
-        <br>
-        <label for="password">Password: </label>
-        <input type="password" name="password" id="password">
-        <br>
-        <label for="birthday">Birthday: </label>
-        <input type="date" name="birthday" id="birthday" required>
-        <br>
-        <label for="age">Age</label>
-        <input type="number" id="age" name="age" min="0" max="100" required>
-        <br>
-        <label for="email">Email Address: </label>
-        <input type="email" name="email" id="email" required>
-        <br>
-        <label for="message">Message: </label>
-        <textarea id="message" name="message" required> Sample message here.</textarea>
-        <br>
-        Industry: 
-        <br>
-        <input type="radio" id="finance" name="industry" value="finance">
-        <label for="finance">Finance</label>
-        <br>
-        <input type="radio" id="retail" name="industry" value="retail">
-        <label for="retail">Retail</label>
-        <br>
-        <input type="radio" id="socialservices" name="industry" value="socialservices">
-        <label for="socialservices">Social Services</label>
-        <br>
-        <br>
-        Hobbies: 
-        <br>
-        <input type="checkbox" name="hobbies" value="arts" id="arts">
-        <label for="arts">Arts</label>
-        <br>
-        <input type="checkbox" name="hobbies" value="sports" id="sports">
-        <label for="sports">Sports</label>
-        <br>
-        <input type="checkbox" name="hobbies" value="travels" id="travels">
-        <label for="travels">Travels</label>
-        <br>
-        <br>
-        Country of origin:
-        <br>
-        <select id="country_of_origin" name="country_of_origin">
-            <option value="please_select">Please select</option>
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="Japan">Japan</option>
-            <option value="mozanbique">Mozanbique</option>
-            <option value="palau">Palau</option>
-            <option value="vietnam">Vietnam</option>
-        </select>
-        <br>
-        <br>
-        Countries visited:
-        <br>
-        <select id="countries_visited" name="countries_visited" multiple>
-            <option value="please_select">Please select</option>
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="Japan">Japan</option>
-            <option value="mozanbique">Mozanbique</option>
-            <option value="palau">Palau</option>
-            <option value="vietnam">Vietnam</option>
-        </select>
-        <br>
-        <br>
-        <label for="fileinput">File: </label>
-        <input type="file" id="fileinput" name="fileinput">
-        <br>
-        <br>
-        <button type="submit">Submit</button>
-        <br>
-        <br>
-        <input type="button" value="Input Button">
-        <br>
-        <br>
-        <input type="image" src="images/Green_button.jpeg" alt="Green button." width="75" height="50">
-
-    </form>
-
-    </div>
+   
 </body>
 </html>
